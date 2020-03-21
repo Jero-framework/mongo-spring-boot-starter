@@ -6,12 +6,19 @@
 
     <groupId>com.jero</groupId>
     <artifactId>mongo-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <parent>
         <groupId>com.jero</groupId>
         <artifactId>root-parent-build</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
